@@ -1,0 +1,79 @@
+/*Global*/
+html,body {
+  height: 100%;
+}
+
+@font-face {
+  font-family: "Pacifico";
+  src: url("../fonts/Pacifico.ttf");
+}
+
+.text-pacifico{
+  font-family: "Pacifico", sans-serif;
+}
+
+.gradient{
+  background: #007bff;
+  background: linear-gradient(to right, #0062E6, #33AEFF);
+
+}
+
+.btn-laranja{
+  background: #FF5722;
+  color: #fff;
+}
+
+.btn-laranja:hover{
+  background: #E64A19;
+  color: #fff;
+}
+
+/*Login*/
+.login-cover{
+  background: #007bff;
+  background: linear-gradient(to right, rgba(0, 98, 230,0.85), rgba(51, 174, 255, 0.85)), url("/img/markus-spiske-w0ORUlAunk0-unsplash.jpg");
+  background-size: cover;
+}
+
+@media only screen and (max-width: 1200px) {
+
+  .login-cover{
+    display: none !important;
+  }
+
+  .form-login{
+    padding: 0 !important;
+  }
+}
+
+/*Criar conta*/
+
+/*Recuperar senha*/
+
+/*Principal*/
+.card-img-top {
+  width: 100%;
+  height: 225px;
+  object-fit: cover;
+}
+
+/*Lista de imagens*/
+
+/*Formulario de fotos*/
+.miniatura{
+
+  color: #6c757d;
+  background-color: #e9ecef;
+
+}
+
+.miniatura i {
+  font-size: 120px;
+}
+
+@media only screen and (max-width: 996px) {
+
+  .miniatura{
+    height: 350px !important;
+  }
+}
